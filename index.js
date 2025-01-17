@@ -34,7 +34,14 @@ const describeTemperature = (fahren) => {
 
 alert(`It is ${fahrenheitTemp}° F.\nThat is ${convertToCelsius()}° C.\nIt feels ${describeTemperature(fahrenheitTemp)}.`);
 
+//Extra practice
+//Create a function called getRandomInt that takes in a number and returns a random number between 0 (included) and the entered number (not included).
+const getRandomInt = (zeroTo) => {
+  return Math.floor(Math.random()*zeroTo);
+}
+
 //Testing pings
 // console.log(fahrenheitTemp);
 // console.log(convertToCelsius());
 // console.log(describeTemperature(fahrenheitTemp));
+//console.log(getRandomInt(50));
